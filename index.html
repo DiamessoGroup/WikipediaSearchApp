@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!--CSS3-->
+    <link rel="stylesheet" href="https://www.w3schools.com/lib/w3.css">
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
+    <!--Bootstrap-->
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+    <!--Font Awesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!--Roboto Slab Font-->
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,700" rel="stylesheet">
+
+    <title>Wikipedia Search Application By Krishna Diamesso</title>
+
+    <style>
+        input[type="text"] {
+            display: block;
+            margin: 0 auto;
+        }
+        
+        body {
+            background-color: #F5F5F5;
+            font-family: 'Roboto Slab', serif;
+        }
+        
+        ul {
+            list-style: none;
+        }
+        
+        a:hover,
+        a:visited,
+        a:link,
+        a:active {
+            text-decoration: none;
+        }
+        
+        ul {
+            padding-left: 0px;
+        }
+
+    </style>
+</head>
+
+<body>
+
+    <div class="w3-center w3-padding-32">
+        <a href="index.html">
+            <h1 class="w3-xxxlarge">Wikipedia</h1>
+        </a>
+    </div>
+    <div class="W3-center w3-container">
+        <input type="text" class="w3-border-blue w3-input" style=" width:80%;font-size:20px" id="searchWiki" placeholder="Enter a search term and press Enter">
+    </div>
+    <br>
+    <div class="w3-center w3-margin">
+        View a <a href="https://en.wikipedia.org/wiki/Special:Random" target="_blank" class="">Random Article</a>
+    </div>
+    <br>
+
+    <div class="w3-row-padding w3-container w3-margin">
+        <div class="w3-col l8">
+            <div id="article1">
+            </div>
+            <div id="article2">
+            </div>
+        </div>
+
+        <div class="w3-col l4" id="featured">
+        </div>
+    </div>
+    <script src="js/app.js"></script>
+</body>
+
+</html>
